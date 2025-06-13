@@ -6,6 +6,7 @@
     <title>Sego Cokot - Makanan Tradisional</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,6 +17,7 @@
             </div>
             <ul>
                 <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
                 <li><a href="#tentang">Tentang</a></li>
                 <li><a href="#pesan">Cara Pesan</a></li>
             </ul>
@@ -26,8 +28,39 @@
         <section id="beranda" class="hero">
             <div class="hero-content">
                 <h1>Sego Cokot</h1>
-                <p>Makanan Tradisional yang Lezat dan Mengenyangkan</p>
+                <p class="hero-subtitle">Nikmati Kelezatan Tradisional dalam Setiap Suapan</p>
+                <p class="hero-description">Makanan tradisional yang menggugah selera dengan cita rasa autentik</p>
                 <a href="#pesan" class="cta-button">Pesan Sekarang</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Menu Favorit</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sego Cokot Original">
+                    </div>
+                    <h3>Sego Cokot Ayam Suwir</h3>
+                    <p>Nasi dengan bumbu khas dan lauk ayam suwir</p>
+                    <span class="price">Rp 5.000</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sego Cokot Special">
+                    </div>
+                    <h3>Sego Cokot Abon Sapi</h3>
+                    <p>Nasi dengan bumbu khas dan abon sapi</p>
+                    <span class="price">Rp 5.000</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sego Cokot Premium">
+                    </div>
+                    <h3>Sego Cokot Ikan Sarden</h3>
+                    <p>Nasi dengan bumbu khas dan ikan sarden fresh</p>
+                    <span class="price">Rp 5.000</span>
+                </div>
             </div>
         </section>
 
@@ -35,13 +68,29 @@
             <h2>Tentang Sego Cokot</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Sego Cokot adalah makanan tradisional yang terbuat dari nasi yang dicampur dengan berbagai bumbu dan lauk pauk. Makanan ini memiliki cita rasa yang khas dan menggugah selera.</p>
-                    <ul class="features">
-                        <li><i class="fas fa-check"></i> Bahan-bahan berkualitas</li>
-                        <li><i class="fas fa-check"></i> Rasa autentik</li>
-                        <li><i class="fas fa-check"></i> Porsi mengenyangkan</li>
-                        <li><i class="fas fa-check"></i> Harga terjangkau</li>
-                    </ul>
+                    <p class="about-description">Sego Cokot adalah makanan tradisional yang terbuat dari nasi yang dicampur dengan berbagai bumbu dan lauk pauk. Makanan ini memiliki cita rasa yang khas dan menggugah selera.</p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Bahan Berkualitas</h3>
+                            <p>Menggunakan bahan-bahan pilihan terbaik</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-utensils"></i>
+                            <h3>Rasa Autentik</h3>
+                            <p>Resep turun temurun yang terjaga keasliannya</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <h3>Porsi Mengenyangkan</h3>
+                            <p>Sajian lengkap dengan porsi yang memuaskan</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tags"></i>
+                            <h3>Harga Terjangkau</h3>
+                            <p>Kualitas premium dengan harga yang ramah</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -51,17 +100,23 @@
             <div class="order-content">
                 <div class="order-steps">
                     <div class="step">
-                        <i class="fas fa-phone"></i>
+                        <div class="step-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
                         <h3>Hubungi Kami</h3>
                         <p>Anda dapat menghubungi kami melalui WhatsApp atau Instagram</p>
                     </div>
                     <div class="step">
-                        <i class="fas fa-clipboard-list"></i>
+                        <div class="step-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
                         <h3>Pilih Menu</h3>
                         <p>Pilih menu dan jumlah pesanan yang diinginkan</p>
                     </div>
                     <div class="step">
-                        <i class="fas fa-truck"></i>
+                        <div class="step-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
                         <h3>Pengiriman</h3>
                         <p>Pesanan akan diantar ke lokasi Anda</p>
                     </div>
@@ -79,7 +134,25 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Sego Cokot. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sego Cokot</h3>
+                <p>Makanan tradisional yang menggugah selera</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p><i class="fas fa-phone"></i> 081234142916</p>
+                <p><i class="fab fa-instagram"></i> @sego.cokot22</p>
+            </div>
+            <div class="footer-section">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Minggu</p>
+                <p>08:00 - 20:00 WIB</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sego Cokot. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
